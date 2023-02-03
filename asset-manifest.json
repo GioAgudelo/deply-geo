@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/deply-geo/static/css/main.0403edcd.css",
+    "main.js": "/deply-geo/static/js/main.f22b52be.js",
+    "static/js/787.b3b3a605.chunk.js": "/deply-geo/static/js/787.b3b3a605.chunk.js",
+    "static/media/transformador.png": "/deply-geo/static/media/transformador.1251a186abf96a03357e.png",
+    "index.html": "/deply-geo/index.html",
+    "main.0403edcd.css.map": "/deply-geo/static/css/main.0403edcd.css.map",
+    "main.f22b52be.js.map": "/deply-geo/static/js/main.f22b52be.js.map",
+    "787.b3b3a605.chunk.js.map": "/deply-geo/static/js/787.b3b3a605.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0403edcd.css",
+    "static/js/main.f22b52be.js"
+  ]
+}
