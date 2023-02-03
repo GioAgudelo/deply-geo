@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React, {useState} from 'react';
+import MapView from './component/MapView';
+import {Icon} from "leaflet";
+import { MapContainer,TileLayer } from 'react-leaflet';
+import Markers from './component/Markers';
+import "./App.css";
+import Ubication from './component/ubication';
+
 
 function App() {
+  // component state
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <MapView/>
     </div>
+
+    
   );
 }
 
