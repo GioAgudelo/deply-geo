@@ -6,6 +6,7 @@ import { MapContainer,TileLayer } from 'react-leaflet';
 import Markers from './component/Markers';
 import "./App.css";
 import Ubication from './component/ubication';
+import Navbar from './component/Navbar/Navbar';
 
 
 function App() {
@@ -13,7 +14,9 @@ function App() {
   
   return (
     <div>
+      <Navbar></Navbar>
       <MapView/>
+      
     </div>
 
     

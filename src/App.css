@@ -2,3 +2,19 @@
   width: 100%;
   height: 100vh;
 }
+body{font-family: 'Times New Roman', Times, serif;}
+
+@media (max-width: 760px){
+  .content_map{
+      position: absolute;
+      top: 170px;
+      left: 0;
+      background: #082a43;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: max-content;
+  }
+ 
+
+}

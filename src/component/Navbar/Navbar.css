@@ -1,0 +1,52 @@
+.navbar{
+    background: #082a43;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+    color: white;
+}
+.nav_items a{
+    margin: 10px;
+    padding: 10px 20px;
+    color: white;
+    position: relative;
+    text-decoration: none;
+
+
+}
+.nav_toggle{
+    display: none;
+}
+@media (max-width: 760px){
+    .nav_items{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #103f61;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:-webkit-fill-available;
+        transition: 0.3s ease all;
+    }
+    .nav_toggle{
+        display: flex !important;
+        flex-direction: column;
+        margin: 15px;
+    }
+    .nav_toggle span{
+        width: 30px;
+        height: 4px;
+        background: white;
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 0.2s linear;
+    }
+}
