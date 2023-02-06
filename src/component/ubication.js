@@ -11,13 +11,17 @@ export class Ubication extends Component{
         this.temTrans2 = this.temTrans2.bind(this);
 
         this.state ={
-         temperatura1 : 0,
-         temperatura2: 0,
+         temperatura1 : 28.7,
+         temperatura2: 29.2,
          position : [4.0938639744413035, -76.20567416272246],
          position2 : [4.087030517496334, -76.19015881259004],
          
         }
 
+        setInterval(() =>{
+            this.temTrans1();
+            this.temTrans2();
+        },60000)
     }
    
 
@@ -52,9 +56,9 @@ export class Ubication extends Component{
                 <Popup  >
                     <b>Transformador 1</b>
                     <br></br>
-                    <b>{this.state.temperatura1}</b>
+                    <b>Temperatura: {this.state.temperatura1}</b>
                     <br></br>
-                    <button onClick={this.temTrans1}>Actualizar Temperatura</button>
+                   {/* <button onClick={this.temTrans1}>Actualizar Temperatura</button>*/}
                 </Popup>
         
             </Marker>
@@ -62,9 +66,9 @@ export class Ubication extends Component{
                 <Popup  >
                     <b>Transformador 2</b>
                     <br></br>
-                    <b>{this.state.temperatura2}</b>
+                    <b>Temperatura: {this.state.temperatura2}</b>
                     <br></br>
-                    <button onClick={this.temTrans2}>Actualizar Temperatura</button>
+                  {/*  <button onClick={this.temTrans2}>Actualizar Temperatura</button>*/}
                 </Popup>
             </Marker>   
         </div>
